@@ -1,0 +1,7 @@
+[user]
+	name = Utsav Goyal
+	email = goyalutsav2004@gmail.com
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
