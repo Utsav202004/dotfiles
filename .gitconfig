@@ -5,3 +5,12 @@
 	editor = vim
 [init]
 	defaultBranch = main
+[push]
+	default = current
+[pull]
+	rebase = false
+[color]
+	ui = auto
+[alias]
+	graph = log --all --graph --decorate --oneline
+	last = log -1 HEAD
