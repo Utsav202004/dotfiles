@@ -144,6 +144,10 @@ alias v="vim"
 
 alias mkdir="mkdir -p"
 
+alias rm="rm -i"
+alias mv="mv -i"
+alias cp="cp -i"
+
 
 #==============================================================================
 
