@@ -1,14 +1,3 @@
-#!/bash/bash
-
-# Creating symbolic links
-ln -sf ~/dotfiles/.bashrc ~/.bashrc
-ln -sf ~/dotfiles/.bash_profile ~/.bash_profile
-ln -sf ~/dotfiles/.vimrc ~/.vimrc
-ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
-
-echo "Dotfiles installation complete"
-
 #!/bin/bash
 
 echo "Installing dotfiles..."
@@ -40,6 +29,8 @@ link_file ~/dotfiles/.bash_profile ~/.bash_profile
 link_file ~/dotfiles/.vimrc ~/.vimrc
 link_file ~/dotfiles/.gitconfig ~/.gitconfig
 link_file ~/dotfiles/.zshrc ~/.zshrc
+link_file ~/dotfiles/.tmux.conf ~/.tmux.conf
+
 
 echo "Dotfiles installation complete!"
 echo "Backups saved to: $BACKUP_DIR"
