@@ -138,7 +138,7 @@ unset __conda_setup
 alias ll="ls -lah"
 
 alias gc="git commit"
-alias gt="git status"
+alias gs="git status"
 
 alias v="vim"
 
