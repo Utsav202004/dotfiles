@@ -16,7 +16,7 @@ Personal configuration files for my macOS development environment.
 ## 🚀 Quick Install
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/dotfiles.git ~/dotfiles
+git clone https://github.com/Utsav202004/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 ./install.sh
 ```
@@ -26,23 +26,23 @@ Note: Creates timestamped backups before overwriting files.
 ## ✨ Features
 
 ### Shell Aliases
-`sl` → ls (typo fix)
-`ll` → ls -lah
-`gs` → git status
-`gc` → git commit
-Safety: rm, cp, mv → ask before overwrite
+- `sl` → ls (typo fix)
+- `ll` → ls -lah
+- `gs` → git status
+- `gc` → git commit
+- Safety: `rm, cp, mv` → ask before overwrite
 
 ### Git Shortcuts
-`git graph` - Pretty branch visualization
-`git last` - Show last commit
+- `git graph` - Pretty branch visualization
+- `git last` - Show last commit
 
 ### Tmux
-Prefix: Ctrl-a (instead of Ctrl-b)
-Split: | horizontal, - vertical
-Mouse enabled
-Reload: Prefix + r
+- Prefix: Ctrl-a (instead of Ctrl-b)
+- Split: | horizontal, - vertical
+- Mouse enabled
+- Reload: Prefix + r
 
 ## 📝 Prerequisites
-Oh My Zsh
-Homebrew (macOS)
-Anaconda
+- Oh My Zsh
+- Homebrew (macOS)
+- Anaconda
