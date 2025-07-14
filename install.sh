@@ -21,9 +21,6 @@
 # - ~/.dotfiles_backup_YYYYMMDD_HHMMSS/
 #==============================================================================
 
-echo "🚀 Installing dotfiles..."
-# ... rest of the script
-
 echo "Installing dotfiles..."
 
 # Creating backup directory with a timestamp
