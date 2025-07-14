@@ -1,5 +1,29 @@
 #!/bin/bash
 
+#==============================================================================
+# Dotfiles Installation Script
+#==============================================================================
+# This script creates symbolic links from ~/dotfiles to your home directory
+# 
+# WHAT IT DOES:
+# - Creates timestamped backup of existing dotfiles
+# - Symlinks all config files to proper locations
+# - Shows progress with friendly messages
+#
+# USAGE:
+#   ./install.sh
+#
+# WARNING: 
+# - This will overwrite existing dotfiles (backups are created)
+# - Make sure you've cloned this repo to ~/dotfiles
+#
+# BACKUP LOCATION:
+# - ~/.dotfiles_backup_YYYYMMDD_HHMMSS/
+#==============================================================================
+
+echo "🚀 Installing dotfiles..."
+# ... rest of the script
+
 echo "Installing dotfiles..."
 
 # Creating backup directory with a timestamp
