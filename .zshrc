@@ -148,6 +148,8 @@ alias rm="rm -i"
 alias mv="mv -i"
 alias cp="cp -i"
 
+# adding for the custom tmux starter i made
+alias tmux-setup='~/tmux-custom-setup/setup_tmux.sh'
 
 #==============================================================================
 
